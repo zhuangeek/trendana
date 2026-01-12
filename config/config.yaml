@@ -85,7 +85,82 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false                  # 禁用
-
+      
+    - id: "biopharma-dive"
+      name: "BioPharma Dive"
+      url: "https://www.biopharmadive.com/feeds/news"
+      enabled: true
+    
+    - id: "fierce-biotech"
+      name: "Fierce Biotech"
+      url: "https://www.fiercebiotech.com/fiercebiotechcom/rss-feeds"
+      enabled: true
+    
+    - id: "fierce-pharma"
+      name: "Fierce Pharma"
+      url: "https://www.fiercepharma.com/fiercepharmacom/rss-feeds"
+      enabled: true
+    
+    - id: "stat-pharma"
+      name: "STAT Pharma"
+      url: "https://statnews.com/category/pharma"
+      enabled: true
+    
+    - id: "pharmaceutical-technology"
+      name: "Pharmaceutical Technology"
+      url: "https://pharmaceutical-technology.com/rss"
+      enabled: true
+    
+    - id: "biospace"
+      name: "BioSpace"
+      url: "https://www.biospace.com/rss/"
+      enabled: true
+    
+    - id: "nature-biotechnology"
+      name: "Nature Biotechnology"
+      url: "https://www.nature.com/nbt/web-feeds"
+      enabled: true
+    
+    - id: "ema"
+      name: "European Medicines Agency"
+      url: "https://www.ema.europa.eu/en/news-events/rss-feeds"
+      enabled: true
+    
+    - id: "moderna"
+      name: "Moderna"
+      url: "https://www.modernatx.com/rss-feeds"
+      enabled: true
+    
+    - id: "biontech"
+      name: "BioNTech"
+      url: "https://www.biontech.de/en/rss-feeds"
+      enabled: true
+    
+    - id: "clinical-trials"
+      name: "ClinicalTrials.gov"
+      url: "https://clinicaltrials.gov/ct2/rss"
+      enabled: true
+    
+    - id: "regeneron"
+      name: "Regeneron"
+      url: "https://www.regeneron.com/rss"
+      enabled: true
+    
+    - id: "genmab"
+      name: "Genmab"
+      url: "https://www.genmab.com/rss"
+      enabled: true
+    
+    - id: "amgen"
+      name: "Amgen"
+      url: "https://www.amgen.com/rss"
+      enabled: true
+      
+    - id: "darwin_search"
+      name: "DarwinSearch"
+      url: "https://rss.darwincell.net/"
+      enabled: true
+      
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
