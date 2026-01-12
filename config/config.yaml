@@ -353,7 +353,7 @@ ai_analysis:
                                     # OpenAI: o3-mini, o1, gpt-4o
                                     # Gemini: gemini-2.5-flash, gemini-2.5-pro
 
-  base_url: "https://api.gptsapi.net"                      # 完整 API 地址（可选）
+  base_url: " https://api.gptsapi.net/v1/chat/completions"                      # 完整 API 地址（可选）
                                     # 留空则使用提供商默认端点
                                     # 其他提供商必须填写完整 URL
                                     # 示例: https://api.openai.com/v1/chat/completions
