@@ -160,6 +160,11 @@ rss:
       name: "DarwinSearch"
       url: "https://rss.darwincell.net/"
       enabled: true
+
+    - id: "darwin_wechat"
+      name: "微信公众号文章"
+      url: "https://rss.darwincell.net/search_results_api.xml"
+      enabled: true
       
     # 自定义源示例
     # - id: "custom-feed"
