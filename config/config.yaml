@@ -93,17 +93,22 @@ rss:
     
     - id: "fierce-biotech"
       name: "Fierce Biotech"
-      url: "https://www.fiercebiotech.com/fiercebiotechcom/rss-feeds"
+      url: "https://www.fiercebiotech.com/rss/biotech/xml"
+      enabled: true
+
+    - id: "fierce-medtech"
+      name: "Fierce Medtech"
+      url: "https://www.fiercebiotech.com/rss/medtech/xml"
+      enabled: true
+
+    - id: "fierce-cro"
+      name: "Fierce Cro"
+      url: "https://www.fiercebiotech.com/rss/cro/xml"
       enabled: true
     
     - id: "fierce-pharma"
       name: "Fierce Pharma"
-      url: "https://www.fiercepharma.com/fiercepharmacom/rss-feeds"
-      enabled: true
-    
-    - id: "stat-pharma"
-      name: "STAT Pharma"
-      url: "https://statnews.com/category/pharma"
+      url: "https://www.fiercepharma.com/rss/xml"
       enabled: true
     
     - id: "pharmaceutical-technology"
@@ -113,51 +118,21 @@ rss:
     
     - id: "biospace"
       name: "BioSpace"
-      url: "https://www.biospace.com/rss/"
+      url: "https://www.biospace.com/all-news.rss"
       enabled: true
     
     - id: "nature-biotechnology"
       name: "Nature Biotechnology"
-      url: "https://www.nature.com/nbt/web-feeds"
+      url: "https://www.nature.com/nbt.rss"
       enabled: true
     
     - id: "ema"
       name: "European Medicines Agency"
-      url: "https://www.ema.europa.eu/en/news-events/rss-feeds"
-      enabled: true
-    
-    - id: "moderna"
-      name: "Moderna"
-      url: "https://www.modernatx.com/rss-feeds"
-      enabled: true
-    
-    - id: "biontech"
-      name: "BioNTech"
-      url: "https://www.biontech.de/en/rss-feeds"
-      enabled: true
-    
-    - id: "clinical-trials"
-      name: "ClinicalTrials.gov"
-      url: "https://clinicaltrials.gov/ct2/rss"
-      enabled: true
-    
-    - id: "regeneron"
-      name: "Regeneron"
-      url: "https://www.regeneron.com/rss"
-      enabled: true
-    
-    - id: "genmab"
-      name: "Genmab"
-      url: "https://www.genmab.com/rss"
-      enabled: true
-    
-    - id: "amgen"
-      name: "Amgen"
-      url: "https://www.amgen.com/rss"
+      url: "https://www.ema.europa.eu/en/news.xml"
       enabled: true
       
     - id: "darwin_search"
-      name: "DarwinSearch"
+      name: "搜索引擎舆情"
       url: "https://rss.darwincell.net/"
       enabled: true
 
