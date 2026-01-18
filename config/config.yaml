@@ -353,7 +353,7 @@ ai_analysis:
                                       # GitHub Action 约 0.1 元/天
                                       # Docker 部署约 0.2 元/天
 
-  include_rss: false                # 是否包含 RSS 内容进行分析
+  include_rss: true                # 是否包含 RSS 内容进行分析
 
   # 提示词配置文件路径（相对于 config 目录）
   prompt_file: "ai_analysis_prompt.txt"
