@@ -80,26 +80,6 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-  
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
-      
-    - id: "biopharma-dive"
-      name: "BioPharma Dive"
-      url: "https://www.biopharmadive.com/feeds/news"
-      enabled: true
-    
-    - id: "fierce-biotech"
-      name: "Fierce Biotech"
-      url: "https://www.fiercebiotech.com/rss/biotech/xml"
-      enabled: true
-
-    - id: "fierce-medtech"
-      name: "Fierce Medtech"
-      url: "https://www.fiercebiotech.com/rss/medtech/xml"
-      enabled: true
 
     - id: "fierce-cro"
       name: "Fierce Cro"
